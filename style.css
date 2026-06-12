@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  background-color: #ffffff;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0d6efd, #0a58ca);
+  color: #ffffff;
+  padding: 80px 0;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.texto-hero {
+  font-size: 1.1rem;
+  max-width: 650px;
+  margin-bottom: 25px;
+}
+
+.tagline {
+  font-weight: 600;
+  margin-bottom: 12px;
+  opacity: 0.95;
+}
+
+.card-hero {
+  border: none;
+  border-radius: 16px;
+}
+
+.card-hero .card-body {
+  padding: 28px;
+}
+
+.section-title {
+  margin-bottom: 28px;
+}
+
+.section-title h2 {
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+.section-title p {
+  color: #555;
+  margin-bottom: 0;
+}
+
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.servico-card {
+  border: none;
+  border-radius: 14px;
+  height: 100%;
+}
+
+.servico-card .card-body {
+  padding: 22px;
+}
+
+.categoria-badge {
+  display: inline-block;
+  background-color: #e7f1ff;
+  color: #0d6efd;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+}
+
+.info-servico {
+  margin-bottom: 6px;
+  color: #444;
+}
+
+.info-servico strong {
+  color: #222;
+}
+
+form.card {
+  border: none;
+  border-radius: 16px;
+}
+
+footer {
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 55px 0;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .btn-lg {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .btn-lg.ms-2 {
+    margin-left: 0 !important;
+  }
+}
